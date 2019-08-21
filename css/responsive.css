@@ -2,16 +2,19 @@
     width: 90px;
     height: 90px;
 }
-.footer {
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background-color: aquamarine;
-  margin-top: 20px;
-}
 .modalbox{
-  margin-left: 400px;
+  margin-left: 570px;
   margin-top: 10px;
   margin-bottom: 50px;
 }
+.fp-tableCell {
+	background: rgb(220, 220, 220);
+    width: 100%;
+    padding: 1px;
+}
+.container{
+  /* padding-left: 60px; */
+}
+
+
+

@@ -5,6 +5,7 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="css/responsive.css">
+  <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'> 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
@@ -56,8 +57,7 @@
 
       <!-- using jumbotron -->
 <div class="jumbotron text-center">
-  <h1>My First Bootstrap Page</h1>
-  <p>Resize this responsive page to see the effect!</p> 
+  <h3 style= "text-align: center; font-family: 'Sofia';">Service to others is the rent you pay for your room here on earth.</h3>
 </div>
   
 
@@ -66,23 +66,23 @@
 
 <div class="container">
   <div class="row">
-     <div class="col-sm-4">                        <!--sm for small screens -->
+     <div class="col-sm-4">                     
         <img src="img/services.png" class="img-circle" alt="services">
       <h3>Column 1</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>Look at services...</p>
+      <p>services that help you...</p>
     </div>
     <div class="col-sm-4">
         <img src="img/managed-services-business-guide.png" alt="msbg" class="img-circle">
       <h3>Column 2</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>Look at management...</p>
+      <p>management skills...</p>
     </div>
     <div class="col-sm-4">
         <img src="img/managed-services1.jpg" class="img-circle" alt="ms1">
       <h3>Column 3</h3>        
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
-      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris...</p>
+      <p>our collaberation...</p>
+      <p>companies with us in the journey...</p>
     </div>
   </div>
 </div>
@@ -101,7 +101,7 @@
     <!-- Wrapper for slides -->
     <div class="carousel-inner">
       <div class="item active">
-        <img src="img/los.jpg" alt="los_angeles">
+        <img src="img/los.png" alt="los_angeles" style="width:100%;height:600px;">
         <div class="carousel-caption">
           <h3>Los Angeles</h3>
           <p>LA is always so much fun!</p>
@@ -109,7 +109,7 @@
       </div>
   
       <div class="item">
-        <img src="img/chicago.jpg" alt="Chicago" style="width: 100%;height: auto;">
+        <img src="img/chicago.png" alt="Chicago" style="width:100%;height:600px;">
         <div class="carousel-caption">
           <h3>Chicago</h3>
           <p>Thank you, Chicago!</p>
@@ -117,7 +117,7 @@
       </div>
   
       <div class="item">
-        <img src="img/newyork.jpg" alt="New York" style="width:100%; height:auto;">
+        <img src="img/ny.png" alt="New York" style="width:100%;height:600px;">
         <div class="carousel-caption">
           <h3>New York</h3>
           <p>We love the Big Apple!</p>
@@ -136,13 +136,107 @@
     </a>
   </div>
 
+ <!--tabbed panne with 3 tabs-->
+
+ <ul class="nav nav-tabs" style="margin: 27px">
+    <li class="active"><a data-toggle="tab" href="#home">Defence</a></li>
+    <li><a data-toggle="tab" href="#menu1">Emerging_Tech</a></li>
+    <li><a data-toggle="tab" href="#menu2">Training</a></li>
+    
+
+  <!--tab description boxes-->
+  <div class="tab-content" style="margin: 35px " >
+      <div id="home" class="tab-pane fade in active">
+        <h4>Tejas</h4>
+        <ul>
+          <li>Tejas is an indigenously made fighter aircraft.  </li>
+            <li>It contains software technologies developed within India.</li>
+            <li>It is the most economical and fastest aircraft of IAF</li>
+        </ul>
+      </div>
+      <div id="menu1" class="tab-pane fade">
+        <h4>Emerging_Tech</h4>
+        <ul>
+          <li>Emerging Technologies like AI,machine learning etc are of great demand in near future.  </li>
+            <li>It is widely accepted as the future of Technologies.</li>
+            <li>It can ensure  greatly the safety and security of everyone </li>
+             
+        </ul>
+      </div>
+      <div id="menu2" class="tab-pane fade">
+        <h4>Training</h4>
+        <ul>
+          <li>Training on latest technologies is given to employees at regular interval .  </li>
+            <li>It keeps the employee up to date with the latest changes in the market.</li>
+              
+        </ul>
+      </div>
+      
+    </div>
+
+
+
+
+
+
+<!-- using cards -->
+ 
+
+<div class="container-fluid">
+         
+  <!--Using Grid to contain Cards-->
+  <div class="row" style="margin: 20px">
+    <div class="col-sm-4"> 
+      <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/defence.jpg" height="250" width="300" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title" style="font-family: 'Sofia';" >5 things to know about defense services</h3>
+              <p > Defence is the action of defending from or resisting attack.In civil proceedings and criminal prosecutions under the common law, a defendant may raise a defence in an attempt to avoid criminal or civil liability.And technology plays an important role in defence sector.</p>                   
+              <a href="#" class="btn btn-primary">Read More..</a>
+            </div>
+          </div>
+    </div> 
+
+
+    <div class="col-sm-4"> 
+      <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/Emerging_tech.jpg" height="250" width="300" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title" style="font-family: 'Sofia';" >5 things to explore about Emerging_Tech</h3>
+              <p> Emerging technology is a relative term, because someone may see a technology as emerging and others may not see it the same way.Emerging technology is a new technology that is currently being developed, or will be developed within the next five to ten years.</p>
+              
+              <a href="#" class="btn btn-primary">Read More..</a>
+            </div>
+          </div>
+    </div> 
+
+
+
+    <div class="col-sm-4"> 
+      <div class="card" style="width: 18rem;">
+            <img class="card-img-top" src="img/training.jpg" height="250" width="300" alt="Card image cap">
+            <div class="card-body">
+              <h3 class="card-title" style="font-family: 'Sofia';">5 things to explore about our Training</h3>
+              <p> Training is the process of teaching the new and/or present employees the basic skills they need to effectively perform their jobs ,or, training is a learning experience that seeks a relatively permanent change in an individual that will improve his/her ability to perform his job.</p>
+              <a href="#" class="btn btn-primary">Read More..</a>
+            </div>
+          </div>
+    </div> 
+      
+  </div>
+</div> 
+
+
+
+
 
  <!-- inserting modal box -->
 
 
- <article class="modalbox">
+ <article class="modalbox" style="align-items: center; text-align: center; margin: 20px;">
 <!-- Trigger the modal with a button -->
-<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Open Modal</button>
+<h4>Add Your Experience.</h4>
+<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Submit</button>
 
 <!-- Modal -->
 <div id="myModal" class="modal fade" role="dialog">
@@ -152,10 +246,10 @@
     <div class="modal-content">
       <div class="modal-header">
         <button type="button" class="close" data-dismiss="modal">&times;</button>
-        <h4 class="modal-title">Modal Header</h4>
+        <h4 class="modal-title">feedback</h4>
       </div>
       <div class="modal-body">
-        <p> modal is here</p>
+        <p> <textarea name="feedback" id="feedback" cols="30" rows="10"></textarea></p>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
@@ -167,8 +261,34 @@
 </article>
 
 <!-- using footer -->
-<div class="footer">
-        <a href="https://maps.google.com/"><img src="img/googlemaps1.webp" style="width: 30px; height: 30px;margin: auto;" ></a>
-      </div>
-</body>
-</html>
+    
+<footer>
+<div class="fp-tableCell" >
+                
+<ul class ="foot" style="list-style-type:none;">
+<li style="margin-bottom:2px;">
+  <a href="https://www.facebook.com/StackRouteOfficial" >
+     <img src="img/fb.png" height="25" width="25">
+  </a>
+</li>
+<li style="margin-bottom:2px;">
+   <a href="https://twitter.com/stack_route" >
+       <img src="img/twitter.png" height="25" width="25">
+   </a>
+</li>
+<li>
+    <a href="https://www.linkedin.com/company/stackroute" >
+    <img src="img/linkedin.png" height="25" width="25">
+    </a>
+  </li>
+</ul>
+
+<ul style="list-style-type:none;">
+<li><a href="#Copyright-Information" style="float:right; margin-right: 30px;">Copyright-Information</a></li>
+<li><a href="#Contact" style="float: right; margin-right: 30px;">Contact Us</a></li>
+</ul>
+ 
+
+</div>
+
+</footer>
